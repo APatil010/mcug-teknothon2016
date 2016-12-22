@@ -1,0 +1,198 @@
+/* Header Section for all the pages */
+
+/* Color : #00AE7A */
+.header {
+    background-color: #002C60;
+}
+
+.title {
+    color: white;
+}
+
+.logo {
+    width: 50%;
+}
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mainlinks {
+    width: 70%;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.headerLinks {
+    background-color: #002C65;
+    color: white;
+    text-align: center;
+}
+
+.gmail {
+    font-size: 1.5em;
+}
+
+.btn {
+    width: 100%;
+    border-radius: 0;
+}
+
+.Home, .bodytitle, .carousel, .body, .events{
+    padding: 3%;
+}
+
+.registerButton {
+    border-radius: 10px;
+    background-color: #002C65;
+    color: white;
+    border-style: none;
+    padding: 1%;
+    font-size: 1.25em;
+}
+
+.bodytitle > h1 {
+    font-size: 4em;
+    color: #00AE7A;
+}
+
+.body {
+    width: 90%;
+    font-size: 1.5em;
+}
+
+.image {
+    width: 80%;
+    height: 10%;
+}
+
+.eventon13, .eventon14 {
+    font-size: 2em;
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.eventon13 > ul > li, .eventon14 > ul > li {
+    padding: 2%;
+}
+
+.eventon13 > ul > li > a, .eventon14 > ul > li > a {
+    color: black;
+}
+
+.eventon13 > ul > li > a:hover, .eventon14 > ul > li > a:hover {
+    color: black;
+    text-decoration: underline;
+}
+.special {
+    font-size: 2.5em;
+    text-align: justify;
+}
+
+.special > a {
+    color: black;
+}
+
+.special > a:hover {
+    text-decoration: underline;
+}
+
+.institute {
+    margin-bottom: 3%;
+}
+
+
+.form {
+    padding-left: 10%;
+}
+
+.name, .email, .mobile {
+    padding-top: 5%;
+    font-size: 2em;
+}
+
+.mobile {
+    padding-bottom: 5%;
+}
+
+#eventbody, #eventinfo {
+    font-size: 1.5em;
+}
+
+#FullName, #Emailid, #Mobile {
+    width: 40%;
+    border-bottom-width: thick;
+    color: #002C65;
+}
+
+.social {
+    padding-top: 2%;
+}
+
+.fb, .twitter, .google {
+    display: inline-block;
+    width: 30%;
+}
+
+.footer {
+    background-color: #002C60;
+    color: white;
+}
+
+.footer > .container > h4 > a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Media queries for all devices */
+@media (min-width: 1024px) {
+    .mainlinks {
+        display: inline-block;
+        width: auto;
+        text-align: center;
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+        font-size: 1.25em;
+    }
+    
+    .logo {
+        width: 30%;
+    }
+    
+    .footer {
+        background-color: #002C60;
+        color: white;
+    }
+
+}
+
+@media (min-width: 1366px) {
+    .mainlinks {
+        display: inline-block;
+        width: auto;
+        text-align: center;
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+        font-size: 1.5em;
+    }
+    
+    .logo {
+        width: 40%;
+    }
+    
+    .footer {
+        background-color: #002C60;
+        color: white;
+    }
+    
+}
+
+

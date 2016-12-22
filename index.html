@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title>
+            Teknothon 2016 | MCUG
+        </title>
+        
+        <!--- CSS & META & JS tags --->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <meta name="MCUG" CONTENT="Teknothon 2016 | A student organised conference on various themes, basically bridging the gaps between Students and Industry.">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+        <link rel="stylesheet" href="css/home.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    </head>
+    
+    <body>
+        
+        <!--- HEADER SECTION --->
+        <center>
+        <div class="container-fluid header">
+            <div class="container">
+                <img src="images/logo.png" alt="MCUG Logo" class="img-responsive logo">
+            </div>
+            <div class="container title">
+                <h1>MIT Computer Users Group </h1>
+                <h4>Sharing Knowledge, Bridging Gaps.</h4>
+            </div>
+        </div>
+            
+            
+        <div class="container-fluid headerLinks">
+            <div class="container">
+                <ul class="nav nav-pills">
+                    <li role="presentation" class="mainlinks homelink"><a href="#">Home</a></li>
+                    <li role="presentation" class="mainlinks eventslink"><a href="#">Events</a></li>
+                    <li role="presentation" class="mainlinks gallerylink"><a href="#">Gallery</a></li>
+                    <li role="presentation" class="mainlinks contactlink"><a href="#">Contact</a></li>
+                    <li role="presentation" class="mainlinks aboutlink"><a href="#">About Us</a></li>
+                </ul>
+            </div>    
+        </div>
+    
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+            MENU <span class="caret"></span>
+        </button>
+        </center>   
+           
+        <!--- BODY SECTION --->
+        
+        <!--- Home Page --->
+        <div class="container-fluid Home">
+            <center>
+            <div class="container bodytitle">
+                <h1>TeKnothon</h1><h1>2K16</h1>
+            </div> 
+            
+            <div class="container carousel">
+                <img class="image" src="images/6.JPG" alt="Image Carousel">
+            </div>
+            </center>
+            
+            <div class="container body">
+                <p style="text-align: left;"> TEKNOTHON 2K16, a technological extravaganza organised with the vision of 'Bridging the Gap' between the students and the industry by conducting workshops, seminars,informal and formal interaction sessions, competitions and lots more. All events and sessions are conducted by well-known speakers and publicized by members of MCUG. The event is totally Free and open for all students irrespective of branches or colleges. </p>
+            </div>
+            
+            <center>
+                <div class="container register"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeUZxpNjiaI9JAvYoKk-KyECEYPbq-Ytyv8yv7EoAhgoPxqYw/viewform" target="_blank">
+                    <button class="registerButton"> Registration Form </button></a>
+                </div>
+                <br><br>
+                <div class="container register"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeL5QZd0ugrHCyh45vBBX3SfxuRDd4Q3F0XidkrRbiVew1c2g/viewform" target="_blank">
+                    <button class="registerButton"> Reverse Interview Question Form </button></a>
+                </div>
+            </center>
+        </div>
+        
+        <!--- Events Page --->
+        <div class="container-fluid Events">
+            <center>
+            <div class="container bodytitle">
+                <h1>TeKnothon </h1><h1>2K16</h1>
+            </div>
+            </center>
+            <div class="container bodytitle">
+                <h1>EVENTS</h1>
+            </div>
+            
+            <center>
+            <div class="container">
+                <img width="80%" src="images/poster.png" alt="poster">
+            </div>
+            </center>
+            
+            <center>
+            <div class="container eventdetail" style="border: 1px solid black; padding: 1%; margin: 2%;">
+                <div class="container" style="float: right;">
+                    <img class="close" width="5%" src="images/closeicon.png">
+                </div>
+                <div class="container" id="eventname">
+                    heading
+                </div>
+                <div class="container" id="eventbody">
+                    This is sample description for the current event selected.
+                </div>
+                <div class="container" id="eventinfo">
+                    Time : 9:00 AM
+                    Location : N206 (Computer Dept.)
+                </div>
+            </div>
+            </center>
+            
+            <div class="container events">
+                
+                <div class="13th">
+                    <div class="container date">
+                        <h1> 13<sup>th</sup> Sept.</h1> <small style="color: gray;">click the event for more info.</small>
+                    </div>
+                    
+                    
+                    <div class=" container eventon13">
+                        <ul type="square">
+                            <li><a class="event" id="fv">AI/VR/AR - Under the hood</a></li>
+                            <li><a class="event" id="lf">Looking into Future</a></li>
+                            <li><a class="event" id="ar">Alternating Realities</a></li>
+                        </ul>
+                    </div>
+                    
+                    <center>
+                        <div class="special">
+                            <img width="4%" height="4%" src="images/star.png" alt="star"><a class="event" id="mb">Myth Buster</a>
+                        </div>
+                    </center>
+                </div>
+                <hr>
+                <div class="14th">
+                <div class="date">
+                    <h1> 14<sup>th</sup> Sept. </h1><small style="color: gray;">click the event for more info.</small>
+                </div>
+                
+                <div class="eventon14">
+                    <ul type="square">
+                        <li><a class="event" id="cv">Computer Vision</a></li>
+                        <li><a class="event" id="ml">Machine Learning</a></li>
+                    </ul>
+                </div>
+                
+                    <center>
+                        <div class="special">
+                            <img width="4%" height="4%" src="images/star.png" alt="star"> <a class="event" id="ri">Reverse Interview</a>
+                        </div>
+                    </center>
+                </div>
+            </div>    
+        </div>
+          
+        <!--- Registration Page --->
+        <div class="container-fluid Gallery">
+            <div class="container bodytitle">
+                <h1> GALLERY </h1>
+            </div>
+                <br><br>
+            
+            <div class="container">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                        <img src="images/2.JPG">
+                    </div>
+
+                    <div class="item">
+                        <img src="images/3.JPG">
+                    </div>
+
+                    <div class="item">
+                        <img src="images/4.JPG">
+                    </div>
+
+                    <div class="item">
+                        <img src="images/5.JPG">
+                    </div>
+                      
+                    <div class="item">
+                        <img src="images/7.JPG">    
+                    </div>
+                </div>
+
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                  </a>
+                </div>
+            </div>
+        </div>
+        
+        <!--- Contact Page --->
+        <div class="container-fluid Contact">
+            <div class="container bodytitle">
+                <h1>CONTACT US</h1>
+            </div>
+            
+            <div class="container social">
+                <center>
+                <div class="container fb"><a href="http://www.facebook.com/mcugpune">
+                    <img width="50%" height="50%" src="images/facebook.png" alt="FB"></a> 
+                </div>
+                <div class="container twitter"><a href="http://www.twitter.com/mitcug">
+                    <img width="50%" height="50%" src="images/twitter.png" alt="twitter"></a>
+                </div>
+                </center>
+            </div>
+            <br><br><br>
+            <div class="container gmail">
+                OR, Mail us on: <a style="border: 1px solid black; padding: 1%; color: black;" href="mailto:mcug.mit@gmail.com">mcug.mit@gmail.com</a>
+            </div>
+            
+            <br><br>
+            <hr>
+            <br><br>
+            
+            <div class="container bodytitle">
+                <h1>FIND US</h1>
+            </div>
+            
+            <center>
+            <div class="container map">
+                <!--- AIzaSyC8huOdWH06X7Rvzc3bpFwENq71LlvfHjQ --->
+                <iframe
+                    width="600"
+                    height="450"
+                    frameborder="0" style="border:0; "
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC8huOdWH06X7Rvzc3bpFwENq71LlvfHjQ
+                    &q=MIT+Computer+and+E%26TC+Department" allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="container address">
+                <br>
+                MIT Computer Users Group, Computer Department, <br>
+                Maharashtra Institute of Technology, Pune <br>
+                S. No. 124, Paud Road, Kothrud, <br>
+                Pune - 411038 <br>
+                <br>
+            </div>
+            </center>
+        </div>
+        
+        <!--- About Us Page --->
+        <div class="container-fluid AboutUs">
+            <div class="container bodytitle">
+                <h1>ABOUT US</h1>
+            </div>
+            
+            <center>
+            <div class="container aboutimage">
+                <img width="70%" src="images/1.JPG" alt="image">
+            </div>
+            </center>
+            
+            <div class="container body">
+                <p style="text-align: left;">
+                    MIT Computer Users Group (MCUG) is a Student Body executing in the Computer Department of our college. Working towards achieving the ultimate goal of having a fully functional and academically self sustainable Departmental Body, our motto boasts our priorities, "Sharing Knowledge, Bridging Gaps". 
+                <h3> WHAT WE DO: </h3> In accordance with our motto, we bring you two of the most awaited events in University Academia, Teknothon & Linuxication. <br>
+                    Our thirst for knowledge is never ending, and we urge you to feel the same. Approach with your doubts, and we promise to clarify. We also organize various technological sessions to aid the students in keeping themselves updated.
+                </p>
+            </div>
+
+            <center>
+                <div class="container institute">
+                    <button class="registerButton"> <a href="http://www.mitpune.com" target="_blank">About the Institution</a> </button>
+                </div>
+            </center>
+        </div>
+        
+        <!--- FOOTER SECTION --->
+        <center> 
+        <footer>   
+            <div class="container-fluid footer">
+                <div class="container">
+                    <h4><a href="copyright.html">&copy; MCUG. All Rights Reserved.</a></h4>
+                </div>
+            </div>
+        </footer>
+            
+            
+        </center>
+
+        
+        <!--- JQuery SECTION = add dynamics to page --->
+        <script>
+           $(document).ready(function(){
+               
+               // To make the menu button in mobile and tablet devices
+                $(".mainlinks").hide();
+                if ($(window).width() > 1024) {
+                    $(".btn").hide();
+                    $(".mainlinks").show();   
+                } 
+               
+               // Menu button toggle for Mobile websites
+               $(".btn").click(function(){
+                   
+                    $(".mainlinks").toggle();
+                });
+               
+               //initial page loading on Home Page
+                $(".Home").show();
+                $(".Events").hide();
+                $(".Gallery").hide();
+                $(".Contact").hide();
+                $(".AboutUs").hide();
+               
+               //switching between pages on the site
+               $(".homelink").click(function(){
+                    $(".Home").show();
+                    $(".Events").hide();
+                    $(".Gallery").hide();
+                    $(".Contact").hide();
+                    $(".AboutUs").hide();
+                   if ($(window).width() < 1024 ) {
+                        $(".mainlinks").hide();
+                   }
+               });
+               
+               $(".eventslink").click(function(){
+                    $(".Home").hide();
+                    $(".Events").show();
+                    $(".Gallery").hide();
+                    $(".Contact").hide();
+                    $(".AboutUs").hide();
+                    $(".eventdetail").hide();
+                    $(".events").show();
+                    if ($(window).width() < 1024 ) {
+                        $(".mainlinks").hide();
+                    }
+                   
+                   $(".event").click(function() {
+                       $(".eventdetail").show();
+                       $(".events").hide();
+                       
+                       document.getElementById("eventname").innerHTML = "<h1>" + $(this).text() + "</h1>"
+                       
+                       //to switch between different event inforamtion
+                       switch ($(this).text()) {
+                           case "Alternating Realities":
+                               document.getElementById("eventbody").innerHTML = "<p>This interactive session would be conducted by Mandar Kulkarni, the co-founder of DRIYA INTERACTIVE. The platforms and technologies used for the development of AR and VR would be main highlight for the session.</p>"
+                               document.getElementById("eventinfo").innerHTML = "<br> Computer Department, MIT, Pune <br> Date & Time : 13/9/16 3:30 PM"
+                               break;
+                               
+                           case "AI/VR/AR - Under the hood":
+                               document.getElementById("eventbody").innerHTML = "<p> Want to experience the magic of AI, AR, VR? The session by Digiperfect would bring you with challenges and possibilities in Industry.</p>"
+                               document.getElementById("eventinfo").innerHTML = "<br> Computer Department, MIT, Pune <br> Date & Time : 13/9/16 10:30 AM"
+                               break;
+                               
+                            case "Looking into Future":
+                               document.getElementById("eventbody").innerHTML = "<p> An rich insight into use & applications of IOT, AR, VR, AI and Image Processing, by IndiaFIRST Robotics."
+                               document.getElementById("eventinfo").innerHTML = "<br> Computer Department, MIT, Pune <br> Date & Time : 13/9/16 1:30 PM"
+                               break;
+                               
+                            case "Myth Buster":
+                               document.getElementById("eventbody").innerHTML = "<p> There is lot we do in day to day life, but there common misconceptions of technology, which do not get uncovered. The MCUG student are here to clear your misconception on the topics like <br> GPS <br> TOR <br> Torrents <br> Common Myths<br></p>"
+                               document.getElementById("eventinfo").innerHTML = "<br> Computer Department, MIT, Pune <br> Parallel Track to main event"
+                               break;
+                               
+                            case "Machine Learning":
+                               document.getElementById("eventbody").innerHTML = "<p>Do you think solving real world problems are easy? Get into depth of basic challenges, applications and how machine learning is used to solve real world problems. Session by Niranjan Pedanekar, Principal Scientist at TRDDC.</p>"
+                               document.getElementById("eventinfo").innerHTML = "<br> Computer Department, MIT, Pune <br> Date & Time : 14/9/16 12:00 PM"
+                               break;
+                               
+                            case "Computer Vision":
+                               document.getElementById("eventbody").innerHTML = "<p> Learn how the technology in the world are evolving at such a rapid pace & how does it affect the human life. Session by, Anand Muglikar, CEO at StomatoBot Technologies.</p>"
+                               document.getElementById("eventinfo").innerHTML = "<br> Computer Department, MIT, Pune <br> Date & Time : 14/9/16 10:00 AM"
+                               break;
+                               
+                            case "Reverse Interview":
+                               document.getElementById("eventbody").innerHTML = "<p>Tired of giving interviews? OR Want to know how it feels to take an interview? OR Want to know what is that company looks for in candidate? Lets REVERSE it all. Reverse Interview is the platform for students to interview the Experienced Panel. Our Speakers : <br><br><br> Rahul Ekbote, Vice President of Persistent <br> Anand Joglekar, Co-Founder of Ameya Softwares <br> Sarabjeet Singh, Lead HR Analyst, GS Labs <br> Dr. Sonali Saha, Ex-HR at Sixsigma, currently Assistant Professor at MITSOT <br> Anshul Fadnavis , System Software Engineer , NVIDIA <br> Cdr Pratap Pawar , Director HR & Shared Services , GS Labs </p>"
+                               document.getElementById("eventinfo").innerHTML = "<br> Computer Department, MIT, Pune <br> Date & Time : 14/9/16 3:00 PM"
+                               break;
+                           default:
+                               break;
+                       }
+                       
+                   })
+                   
+                   $(".close").click(function() {
+                       $(".eventdetail").hide();
+                       $(".events").show();
+                   })
+               });
+               
+               $(".gallerylink").click(function(){
+                    $(".Home").hide();
+                    $(".Events").hide();
+                    $(".Gallery").show();
+                    $(".Contact").hide();
+                    $(".AboutUs").hide();
+                    if ($(window).width() < 1024 ) {
+                        $(".mainlinks").hide();
+                    }
+               });
+               
+               $(".contactlink").click(function(){
+                    $(".Home").hide();
+                    $(".Events").hide();
+                    $(".Gallery").hide();
+                    $(".Contact").show();
+                    $(".AboutUs").hide();
+                    if ($(window).width() < 1024 ) {
+                        $(".mainlinks").hide();
+                    }
+               });
+               
+               $(".aboutlink").click(function(){
+                    $(".Home").hide();
+                    $(".Events").hide();
+                    $(".Gallery").hide();
+                    $(".Contact").hide();
+                    $(".AboutUs").show();
+                    if ($(window).width() < 1024 ) {
+                        $(".mainlinks").hide();
+                    }
+               });
+               
+               
+               
+            }); 
+        </script>
+        
+        
+    </body>
+    
+</html>
